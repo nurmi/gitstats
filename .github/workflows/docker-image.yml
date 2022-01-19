@@ -22,5 +22,7 @@ jobs:
 
     - name: podman
       run: | 
-        podman pull 
+        podman pull alpine:latest
+        podman images -a
+
 

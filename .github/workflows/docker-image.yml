@@ -24,5 +24,5 @@ jobs:
       run: | 
         podman pull alpine:latest
         podman images -a
-
+        podman run -t -i alpine:latest echo HELLO
 
